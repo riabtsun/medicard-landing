@@ -180,7 +180,7 @@ a {
   max-width: 1240px;
   min-height: 555px;
   margin: auto;
-  padding: 130px 30px 66px;
+  padding: 70px 30px 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -212,7 +212,7 @@ a {
   box-shadow: 0 0 0 4px #ffffff22;
 }
 .hero h1 {
-  font-size: 52px;
+  font-size: 70px;
   line-height: 1.1;
   letter-spacing: -1.8px;
   margin: 0 0 18px;
@@ -223,7 +223,7 @@ a {
   color: #fff6e8;
 }
 .hero-copy > p {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.72;
   color: #fff9;
   max-width: 560px;
@@ -402,6 +402,15 @@ a {
   text-align: center;
   max-width: 660px;
   margin: 0 auto 48px;
+  a {
+	transition: all 0.2s;
+  }
+  a:hover {
+	color: var(--orange); 
+  }
+  b{
+	font-weight: 700;
+  }
 }
 .section-kicker {
   color: var(--orange);
@@ -423,6 +432,49 @@ a {
   color: var(--muted);
   font-size: 15px;
   line-height: 1.7;
+}
+
+.conditions-section {
+  display: block;
+  margin-top: 70px;
+  padding: 70px 30px;
+  background-color: var(--soft); 
+  ul {
+    list-style-type: none;
+   
+  } 
+  li {
+    text-indent: 1.5em;
+  }
+  a{
+    transition: all 0.2s;
+  }
+  a:hover {
+    color: var(--orange); 
+  }
+  b {
+    font-weight: 600;
+  } 
+}
+
+.join-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  padding-left: 20px;
+  color: var(--muted);
+  i {
+	color: var(--orange);
+	margin-right: 8px;
+	font-size: 14px;
+  }
+
+}
+
+.lead span {
+  color: var(--orange);
+  font-weight: 700;
 }
 .benefit-card {
   min-height: 250px;
@@ -477,7 +529,6 @@ a {
   background: #282435;
   color: #fff;
   padding: 42px max(calc((100% - 1180px) / 2), 30px) 0;
-  margin-top: 50px;
 }
 .footer-main {
   display: grid;
