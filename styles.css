@@ -728,6 +728,24 @@ a {
 	width: 60px;
 }
 
+.hozl {
+  gap: 30px;
+  margin-top: 20px;
+  figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+}
+
+.hozl-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
 @media (max-width: 1000px) {
   .desktop-nav {
     gap: 19px;
